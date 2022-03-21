@@ -28,7 +28,7 @@ public class q1_co1 {
 		{
 			System.out.println(p1.pname+" : "+p1.price);
 		}
-		if(p2.price<p3.price)
+		else if(p2.price<p3.price)
 		{
 			System.out.println(p2.pname+" : "+p2.price);
 		}
