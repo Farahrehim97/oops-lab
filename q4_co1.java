@@ -47,7 +47,7 @@ public class q4_co1 {
 		{
 			for(int j=0;j<s;j++)
 			{
-				if(a[i][j]==b[i][j])
+				if(a[i][j]!=b[i][j])
 				{
 					flag=0;
 					break;
