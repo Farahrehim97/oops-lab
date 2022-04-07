@@ -47,7 +47,22 @@ public static void main(String args[]) throws IOException
 		e1[i].display();
 	}
 	
-	
+	System.out.println("enter the eno of employee to be searched");
+		en=sc.nextInt();
+		for(int i=0;i<n;i++)
+		{
+			if(e1[i].eno==en)
+			{	
+				flag=1;
+				System.out.println("employee found");
+			}
+				
+		}
+		if(flag==0)
+		{
+			System.out.println("employee not found");
+		}
+		
 	
 }
 }
